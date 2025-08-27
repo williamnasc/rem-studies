@@ -23,15 +23,27 @@ O documento fala dos modelos de canal para frequências de 0,5 GHz a 100 GHz.
 - mmMAGIC (Millimetr-Wave Based Mobile Radio Access Network for Fifth Generation Integrated Communications: Europe based)
 - IMT-2020 5G promotion assiciation: China based
 
-### Modelos
+[//]: # (### Modelos)
 
-#### METIS Channel Models:
+[//]: # ()
+[//]: # (#### METIS Channel Models:)
     
 
 ## Modelos de Canal para 0.5-100 GHz
 
 ### Cenários
 
-#### UMi
+#### Indoor-office
+
+![indoor_office](./figs/tab7.2.2.jpeg)
+
+#### Indoor Factory
+
+Foca em halls de fábricas de tamanhos variados e com diferentes níveis de densidade
+de "bagunça", como máquinas, linhas de montagem, prateleiras de armazenamento, etc.
+Os detalhes do cenário InF estão listados na Tabela 7.2-4.
+
+![indoor_office](./figs/tab7.2.4_p1.jpeg)
+![indoor_office](./figs/tab7.2.4_p2.jpeg)
 
 
