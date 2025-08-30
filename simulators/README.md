@@ -3,6 +3,8 @@
 Ferramentas para gerar mapas de cobertura, potência recebida e interferência:
 
 - **MATLAB/Simulink (5G Toolbox, WLAN Toolbox, Phased Array System Toolbox)**
+  - [Get Started with 5G Toolbox](https://www.mathworks.com/help/5g/getting-started-with-5g-toolbox.html)
+  - [Evaluate 3GPP Indoor Reference Scenario](https://www.mathworks.com/help/5g/ug/evaluate-3gpp-indoor-reference-scenario.html)
 
 - **NS-3 (com módulos de LTE/5G)**
 
