@@ -120,7 +120,32 @@ methodology framework, deployment scenarios and the corresponding potentially su
 
 ## Modelos de Canal para 0.5-100 GHz
 
-### Cenários ()
+### Cenários de Interesse (Section 6.2)
+
+- UMi (Street Canyin, open area) com O2O (Outdoor-to-Outdoor) e O2I (Outdoor-to-Indoor)
+  - Cenários da vida real, como uma cidade ou praça de estação. A largura da área aberta típica está na faixa de 
+50 a 100 m.
+
+- UMa with O2O e O2I:
+  - Estações base estão montadas acima dos níveis dos telhados dos edifícios ao redor.
+
+- **Indoor**
+  - Ambientes de escritório, Shopping malls...
+  - O ambiente típico de escritório é composto por áreas de cubículos abertos, escritórios fechados, áreas abertas, 
+corredores, etc.
+
+- Backhaul:
+  - incluindo a conexão de retorno ao ar livre acima do telhado em áreas urbanas e cenários de canyon urbano onde 
+pequenas células BSs são colocadas em postes de luz.
+ 
+- D2D/V2V:
+
+- Outros cenários, como Estádio (com telhado aberto) e Ginásio (com telhado fechado).
+
+- Cenários industriais Indoor
+
+- Suburban macro (SMa) scenarios
+
 
 #### Indoor-office
 
