@@ -135,9 +135,7 @@ methodology framework, deployment scenarios and the corresponding potentially su
 corredores, etc.
 
 - Backhaul:
-  - incluindo a conexão de retorno ao ar livre acima do telhado em áreas urbanas e cenários de canyon urbano onde 
-pequenas células BSs são colocadas em postes de luz.
- 
+  
 - D2D/V2V:
 
 - Outros cenários, como Estádio (com telhado aberto) e Ginásio (com telhado fechado).
@@ -146,12 +144,17 @@ pequenas células BSs são colocadas em postes de luz.
 
 - Suburban macro (SMa) scenarios
 
+### Cenários (Section 7.2)
+
+#### UMi-street canyon and UMa
 
 #### Indoor-office
 
 ![indoor_office](./figs/tab7.2.2.jpeg)
 
-#### Indoor Factory
+#### RMa
+
+#### Indoor Factory (InF)
 
 Foca em halls de fábricas de tamanhos variados e com diferentes níveis de densidade
 de "bagunça", como máquinas, linhas de montagem, prateleiras de armazenamento, etc.
@@ -160,4 +163,5 @@ Os detalhes do cenário InF estão listados na Tabela 7.2-4.
 ![indoor_office](./figs/tab7.2.4_p1.jpeg)
 ![indoor_office](./figs/tab7.2.4_p2.jpeg)
 
+#### SMa
 
