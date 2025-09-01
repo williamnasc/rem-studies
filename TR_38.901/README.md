@@ -165,3 +165,18 @@ Os detalhes do cenário InF estão listados na Tabela 7.2-4.
 
 #### SMa
 
+### Pathloss, LOS probability and penetration modeling (Section 7.4)
+
+#### Pathloss (Section 7.4.1)
+Os modelos de perda de caminho possuem distribuição da desvanecimento de sombra é log-normal, e seu desvio 
+padrão para cada cenário é fornecido na Tabela 7.4.1-1.
+
+![pl_header](./figs/fig7.4.1-1_pl_distances.jpeg)
+
+![pl_header](./figs/tab7.4.1-1_header.jpeg)
+![pl_indoor](./figs/tab7.4.1-1_indoor.jpeg)
+![pl_indoor](./figs/tab7.4.1-1_indoor_2.jpeg)
+
+#### LOS probability (Section 7.4.2)
+
+![pl_indoor](./figs/tab7.4.2-1_los_prob.jpeg)
