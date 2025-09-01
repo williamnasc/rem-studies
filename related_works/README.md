@@ -10,6 +10,7 @@
 # Trabalhos Relacionados
 
 - [Indoor 5G 3GPP-like channel models for office and shopping mall environments](https://ieeexplore-ieee-org.ez18.periodicos.capes.gov.br/document/7503868)
+- [White Paper - 5G Channel Model for bands up to 100 GHz](http://www.5gworkshops.com/5GCMSIG_White%20Paper_r2dot3.pdf)
 
 ### Modelos Indoor
 
@@ -20,4 +21,10 @@
 
 ### Uso dos Simuladores
 
-- [Sionna RT: Differentiable Ray Tracing for Radio Propagation Modeling](https://ieeexplore-ieee-org.ez18.periodicos.capes.gov.br/document/10465179)
+- Trabalhos com ns-3
+  - [Calibration of the 5G-LENA system level simulator in 3GPP reference scenarios](https://www.sciencedirect.com/science/article/pii/S1569190X22000697?casa_token=_XJJPHuE088AAAAA:fMweiaxtDy89mEHCAaeknSxEv49H5qLDLRJOQDzx6USlBicKw55lNtazFA0IQes5YFgmzzOvfdg)
+  - [Avaliação de um modelo de grid irregular para localização outdoor utilizando simulação](https://www.cin.ufpe.br/~tg/2018-1/fsa4-tg.pdf)
+
+- Trabalhos com
+
+- [Trabalhos com Sionna](https://nvlabs.github.io/sionna/made_with_sionna.html)

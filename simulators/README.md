@@ -10,6 +10,7 @@ Ferramentas para gerar mapas de cobertura, potência recebida e interferência:
 
 - **Sionna (NVIDIA)**
   - [Link](https://nvlabs.github.io/sionna/rt/tutorials/Radio-Maps.html)
+  - [3GPP 38.901 channel models](https://nvlabs.github.io/sionna/phy/api/channel.wireless.html#gpp-38-901-channel-models)
   
 - **QuaDRiGa** (Quasi-Deterministic Radio Channel Generator)
   - [Link](https://quadriga-channel-model.de/)
