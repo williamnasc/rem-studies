@@ -180,3 +180,6 @@ padrão para cada cenário é fornecido na Tabela 7.4.1-1.
 #### LOS probability (Section 7.4.2)
 
 ![pl_indoor](./figs/tab7.4.2-1_los_prob.jpeg)
+
+#### Fast fading model (Section 7.5)
+
