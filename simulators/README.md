@@ -14,6 +14,7 @@ Ferramentas para gerar mapas de cobertura, potência recebida e interferência:
   
 - **QuaDRiGa** (Quasi-Deterministic Radio Channel Generator)
   - [Link](https://quadriga-channel-model.de/)
-  - pacote para matlab.
+  - pacote para Matlab ou Octave.
 
 - **WinProp (Altair) [Pago]**
+- **Wireless InSite (REMCOM) [Pago]**
