@@ -16,8 +16,7 @@ O Sionna RT é a parte do simulador da nvidia que utiliza de estratégias de Ray
 
 Para montar os cenários é possível utilizar o Blender e alguns plugins para facilitar a obtenção de modelos 3d a partir de mapas e para converter o arquivo do blender para o formato aceito pelo Sionna (Mitsuba 3)
 
-
-Para rodar o Sionna evitando o erro do Mitsuba use o comando: .\blender.exe --python-use-system-env
+## Montar ambiente do Sionna
 
 - INSTALA O LLVM PARA PODER INSTALAR O SIONA EM CUDA (INCONSISTENTE)
 sudo apt install llvm
@@ -31,13 +30,28 @@ pip install sionna
 
 ## Como configurar o Blender para Gerar o arquivo para o Sionna
 
-- instalar plugin do blender
-- montar cenario (configurar todos os params, adicionar os tipos de mateiral)
-- exportar o xml
+Após instalar Blender, é necessário adicionar um pluguin para que ele seja capaz de exportar o projeto no formato mitsuba.
+
+O repositório para download com o tutorial de instalação plugin no blender está disponível [neste link](https://github.com/mitsuba-renderer/mitsuba-blender).
+
+- TODO : montar cenario (configurar todos os params, adicionar os tipos de mateiral)
+- TODO : exportar o xml
+
+É comum que o plugin do mitsuba não consiga instalar corretamente as dependências e não aparece a opção de exportar no formato mitsuba. Para rodar o Sionna evitando o erro do Mitsuba use o comando: 
+
+.\blender.exe --python-use-system-env
+
+## TODO: Montagem do cenário de simulação no Blender
+
+para montar o cenário no Blender e exportar corretamente é necessário se atentar a alguns detalhes. Existe um tutorial da própria NVIDIA que ensina e exemplifica esse processo. 
+
+[link do tutorial](https://www.youtube.com/watch?v=7xHLDxUaQ7c)
 
 ## Como acessar o jupyter notebook do LANCE com sionna
 
-- estar na rede ou na VPN
-- links
-  - servidor padrão: http://172.31.0.41:8888/?token=600b6a71154f38b5b8a8a43dfcd24eb341b5ef897668104b
-  - servidor de teste do sionna : http://172.31.0.41:9999/
+No LANCE temos um servidor com um jupyter notebook com o sionna instalado para facilitar o acesso e permitir o uso de maior processamento computacional caso seja necessário.
+
+_ara acessar esse serviço basta estar na rede do LANCE ou conectado a V_N e acessar um os seguintes links:
+
+  - [Serviço padrão](http://172.31.0.41:8888/?token=600b6a71154f38b5b8a8a43dfcd24eb341b5ef897668104b)
+  - [Serviço de teste do sionna](http://172.31.0.41:9999/)
