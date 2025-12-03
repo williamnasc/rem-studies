@@ -10,35 +10,55 @@ O Sionna RT é a parte do simulador da nvidia que utiliza de estratégias de Ray
 
 - Requisitos para o Sionna
   - Python 3.10-3.12
-  - TensorFlow 2.14-2.19
-    ```python
-    pip install tensorflow==2.19.0
-    ```
+  - TensorFlow 2.14-2.19  
   - Mitsuba
-    ```python
-    pip install mitsuba
-    ```
   - LLVM e Dr.Jit
-    - Linux
-      ```python
-      sudo apt install llvm
-      ```
-    - Windows
-      - Instalador no [link](https://drjit.readthedocs.io/en/latest/what.html#backends).
 
 Para montar os cenários é possível utilizar o Blender e alguns plugins para facilitar a obtenção de modelos 3d a partir de mapas e para converter o arquivo do blender para o formato aceito pelo Sionna (Mitsuba 3)
 
-## Montar ambiente do Sionna
+## Montar ambiente para o Sionna
 
-- INSTALA O LLVM PARA PODER INSTALAR O SIONA EM CUDA (INCONSISTENTE)
+#### INSTALAR O LLVM PARA PODER INSTALAR O SIONA EM CUDA (INCONSISTENTE)
+
+Caso esteja utilizando um computador que não possua suporte ao CUDA, é necessário instalar o LLVM para que o sionna RT possa funcionar. Porém nos testes, realizados o funcionamento é inconsistente pois algumas operações não foram possíves utilizando o LLVM.
+
+Para instalar no Linux:
+```python
 sudo apt install llvm
+```
 
-- CRIA UMA VENV PARA INSTALAR O SIONNA
+Caso o computador seja windows a instalação pode ser realizada a partir de um instalador disponível neste [link](https://drjit.readthedocs.io/en/latest/what.html#backends).
+
+#### CRIAR UMA VENV PARA INSTALAR O SIONNA
+
+Para configurar o ambiente python é importante se atentar que o sionna foi desenvolido em cima de uma conjunto de versões específicas do python. Portanto para a versão 1.2.1 do Sionna o python utilizado tem que estar entre as versões 3.10 e 3.12.
+
+Para criar um ambiente virtual no linux basta fazer
+
+```
 python3 -m venv venv
-source venv/bin/activate
+```
 
-- INSTALA O SIONNA
+Uma vez criada, para ativar a venv basta fazer
+
+```
+source venv/bin/activate
+```
+
+Uma vez configurada e ativada a venv podemos instalar os pacotes necessários e o sionna
+
+```python
+pip install tensorflow==2.19.0
+```
+
+```python
+pip install mitsuba
+```
+
+```python
 pip install sionna
+```
+  
 
 ## Como configurar o Blender para Gerar o arquivo para o Sionna
 
