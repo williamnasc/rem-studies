@@ -11,8 +11,20 @@ O Sionna RT é a parte do simulador da nvidia que utiliza de estratégias de Ray
 - Requisitos para o Sionna
   - Python 3.10-3.12
   - TensorFlow 2.14-2.19
+    ```python
+    pip install tensorflow==2.19.0
+    ```
   - Mitsuba
+    ```python
+    pip install mitsuba
+    ```
   - LLVM e Dr.Jit
+    - Linux
+      ```python
+      sudo apt install llvm
+      ```
+    - Windows
+      - Instalador no [link](https://drjit.readthedocs.io/en/latest/what.html#backends).
 
 Para montar os cenários é possível utilizar o Blender e alguns plugins para facilitar a obtenção de modelos 3d a partir de mapas e para converter o arquivo do blender para o formato aceito pelo Sionna (Mitsuba 3)
 
@@ -51,7 +63,7 @@ para montar o cenário no Blender e exportar corretamente é necessário se aten
 
 No LANCE temos um servidor com um jupyter notebook com o sionna instalado para facilitar o acesso e permitir o uso de maior processamento computacional caso seja necessário.
 
-_ara acessar esse serviço basta estar na rede do LANCE ou conectado a V_N e acessar um os seguintes links:
+Para acessar esse serviço basta estar na rede do LANCE ou conectado a VPN e acessar um os seguintes links:
 
   - [Serviço padrão](http://172.31.0.41:8888/?token=600b6a71154f38b5b8a8a43dfcd24eb341b5ef897668104b)
   - [Serviço de teste do sionna](http://172.31.0.41:9999/)
